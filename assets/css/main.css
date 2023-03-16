@@ -2285,7 +2285,7 @@ input, select, textarea {
 		}
 
 		#main .major h2 {
-			background: #f7f7f7 url("images/bg02.png");
+			background: #ffffff url("images/bg02.png");
 		}
 
 /* Footer */
@@ -2933,5 +2933,17 @@ input, select, textarea {
 		  height: auto;
 		  padding-left: 23%;
            padding-right: 20%;
+		}
+	  }
+	  @media only screen and (max-width: 525px) and (min-width: 330px) {
+		.star-widget {
+		 
+		  width: max-content;
+		}
+	  }
+	  @media only screen and (max-width: 330px) and (min-width: 200px) {
+		.star-widget {
+		 
+		  width: max-content;
 		}
 	  }
