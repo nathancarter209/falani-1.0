@@ -2482,7 +2482,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 0em 0 3em 0;
+				padding: 2em 0 3em 0;
 			}
 
 		/* Nav */
@@ -2920,6 +2920,8 @@ input, select, textarea {
 		 
 		  width: 80%;
 		  height: auto;
+		  padding-left: 23%;
+           padding-right: 20%;
 		}
 	  }
 	  @media screen and (max-width: 1680px) and (min-width: 980px) {
