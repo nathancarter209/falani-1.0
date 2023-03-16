@@ -2068,7 +2068,7 @@ input, select, textarea {
 		position: relative;
 		background: #ffffff;
 		border-bottom: solid 1px #ccc;
-		padding: 0em 0 4em 0;
+		padding: 2em 0 4em 0;
 		text-align: center;
 	}
 
@@ -2390,7 +2390,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 0em 0 3em 0;
+				padding: 2em 0 3em 0;
 			}
 
 		/* Banner */
@@ -2929,5 +2929,7 @@ input, select, textarea {
 		 
 		  width: 80%;
 		  height: auto;
+		  padding-left: 23%;
+           padding-right: 20%;
 		}
 	  }
