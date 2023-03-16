@@ -2911,6 +2911,8 @@ input, select, textarea {
 		 
 		  width: 80%;
 		  height: auto;
+		  padding-left: 10%;
+           padding-right: 10%;
 		}
 	  }
 	  @media screen and (max-width: 980px) and (min-width: 591px) {
