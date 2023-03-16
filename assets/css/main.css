@@ -194,7 +194,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.container {
-				width: calc(100% - 60px);
+				width: calc(115% - 60px);
 			}
 
 		}
@@ -202,7 +202,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.container {
-				width: calc(100% - 80px);
+				width: calc(115% - 80px);
 			}
 
 		}
@@ -210,7 +210,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.container {
-				width: calc(100% - 40px);
+				width: calc(115% - 40px);
 			}
 
 		}
@@ -1387,7 +1387,8 @@ input, select, textarea {
 
 				.row {
 					margin-top: -20px;
-					margin-left: -20px;
+					margin-left: 0px;
+					margin-right: 20px;
 				}
 
 					.row > * {
@@ -1548,7 +1549,7 @@ input, select, textarea {
 		header.major {
 			position: relative;
 			text-align: center;
-			/* border-top: solid 1px #ccc; */
+			border-top: solid 1px #ccc;
 			top: 3em;
 			margin: 5px 3px 4em 2px;
 			left: 10px;
@@ -2376,7 +2377,7 @@ input, select, textarea {
 		/* Section/Article */
 
 			header.major {
-				margin: 0.75em 0 2.5em 0;
+				margin: -3.25em 0 2.5em 0;
 			}
 
 				header.major h2 {
