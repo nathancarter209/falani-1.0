@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 		<title>falani</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -196,7 +197,7 @@
 							<div class="col-12">
 
 								<!-- Blog -->
-									<section>
+									<!-- <section>
 										<header class="major">
 											<h2>The Blog</h2>
 										</header>
@@ -216,8 +217,8 @@
 														</ul>
 													</footer>
 												</section>
-											</div>
-											<div class="col-6 col-12-small">
+											</div> -->
+											<!-- <div class="col-6 col-12-small">
 												<section class="box">
 													<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
 													<header>
@@ -231,7 +232,57 @@
 															<li><a href="#" class="button alt icon solid fa-comment">33 comments</a></li>
 														</ul>
 													</footer>
-												</section>
+												</section> -->
+
+
+												<!-- Rating System -->
+												<div class="container">
+													<div class="post">
+													  <div class="text">Thanks for rating us!</div>
+													  <!-- <div class="edit">EDIT</div> -->
+													</div>
+													<div class="star-widget">
+													  <input type="radio" name="rate" id="rate-5">
+													  <label for="rate-5" class="fas fa-star"></label>
+													  <input type="radio" name="rate" id="rate-4">
+													  <label for="rate-4" class="fas fa-star"></label>
+													  <input type="radio" name="rate" id="rate-3">
+													  <label for="rate-3" class="fas fa-star"></label>
+													  <input type="radio" name="rate" id="rate-2">
+													  <label for="rate-2" class="fas fa-star"></label>
+													  <input type="radio" name="rate" id="rate-1">
+													  <label for="rate-1" class="fas fa-star"></label>
+													  <form action="https://formsubmit.co/04c01a56a7ac19b80148d1cf7b355cb9" method="POST" class="contact__form"">
+														<header></header>
+														<!-- <label>
+															Your Review
+															<input type="text" name= "Name" placeholder="Describe your experience.." class="contact__input">
+														  </label> -->
+														<div class="textarea">
+														  <textarea cols="30" placeholder="Describe your experience.." name="Review"></textarea>
+														</div>
+														<div class="btn">
+														  <button type="submit">Send</button>
+														</div>
+													  </form>
+													</div>
+												  </div>
+												  <script>
+													const btn = document.querySelector("button");
+													const post = document.querySelector(".post");
+													const widget = document.querySelector(".star-widget");
+													const editBtn = document.querySelector(".edit");
+													btn.onclick = ()=>{
+													  widget.style.display = "none";
+													  post.style.display = "block";
+													  editBtn.onclick = ()=>{
+														widget.style.display = "block";
+														post.style.display = "none";
+													  }
+													  return false;
+													}
+												  </script>
+											  
 											</div>
 										</div>
 									</section>

@@ -1609,7 +1609,7 @@ input, select, textarea {
 	input[type="reset"],
 	button,
 	.button {
-		-webkit-appearance: none;
+     	-webkit-appearance: none;
 		display: inline-block;
 		text-decoration: none;
 		cursor: pointer;
