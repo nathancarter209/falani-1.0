@@ -285,7 +285,7 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 33.33333%;
+			width: 50%;
 		}
 
 		.row > .off-4 {
@@ -656,7 +656,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 50px 0 0 50px;
+						padding: 30px 0 0 65px;
 					}
 
 					.row.gtr-uniform {
@@ -1548,9 +1548,10 @@ input, select, textarea {
 		header.major {
 			position: relative;
 			text-align: center;
-			border-top: solid 1px #ccc;
-			top: 1em;
-			margin: 0 0 3em 0;
+			/* border-top: solid 1px #ccc; */
+			top: 3em;
+			margin: 5px 3px 4em 2px;
+			left: 10px;
 		}
 
 			header.major h2 {
@@ -1608,7 +1609,7 @@ input, select, textarea {
 	input[type="reset"],
 	button,
 	.button {
-		-webkit-appearance: none;
+     	-webkit-appearance: none;
 		display: inline-block;
 		text-decoration: none;
 		cursor: pointer;
@@ -2093,7 +2094,8 @@ input, select, textarea {
 			#nav > ul > li {
 				display: inline-block;
 				font-style: italic;
-				margin: 0 0.35em 0 0.35em;
+				margin: 0 0.35em 0 1.35em;
+				font-size-adjust: 1;
 			}
 
 				#nav > ul > li > ul {
@@ -2283,7 +2285,7 @@ input, select, textarea {
 		}
 
 		#main .major h2 {
-			background: #f7f7f7 url("images/bg02.png");
+			background: #ffffff url("images/bg02.png");
 		}
 
 /* Footer */
@@ -2931,5 +2933,17 @@ input, select, textarea {
 		  height: auto;
 		  padding-left: 23%;
            padding-right: 20%;
+		}
+	  }
+	  @media only screen and (max-width: 525px) and (min-width: 330px) {
+		.star-widget {
+		 
+		  width: max-content;
+		}
+	  }
+	  @media only screen and (max-width: 330px) and (min-width: 200px) {
+		.star-widget {
+		 
+		  width: max-content;
 		}
 	  }
